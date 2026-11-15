@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0177631b1d3f5b042bf2fa192c62ec34, type: 3}
+  m_Name: MovementConfig_Default
+  m_EditorClassIdentifier: Assembly-CSharp::MovementConfig
+  moveSpeed: 12
+  jumpHeight: 4
+  gravity: -20
+  dampTime: 0.15
+  dashSpeed: 35
+  dashDuration: 0.6
+  dashUpVelocity: 8
+  dashTurnSpeed: 1080
+  dashMomentumAngle: 45
+  dashMomentumBonus: 10
+  dashMomentumMax: 55
+  dashMomentumMinSpeed: 10
+  dashBonusDecay: 5
+  mouseSensitivity: 0.1
+  gamepadSensitivity: 150
+  minPitch: -90
+  maxPitch: 80
+  minLandSpeed: 3
+  hardLandSpeed: 15
+  minLandWeight: 0.3
+  wallJump:
+    wallMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    checkDistance: 0.4
+    maxNormalY: 0.25
+    jumpHeight: 5
+    minPush: 9
+    maxPush: 12
+    sidewaysSpeed: 3
+    maxSpeed: 25
+    pushStartFraction: 0.35
+    pushRampTime: 0.12
+    pushDrag: 6
+    counterControl: 0.25
+    slideCheckDistance: 0.15
+    slideGraceTime: 0.1
+    slideGravityMultiplier: 0.25
+    slideMaxFallSpeed: 20
+    slideBrake: 40
+    forwardHalfAngle: 45
+    backHalfAngle: 45
+    animCrossfade: 0.08
+    jumpFaceTime: 0.5
+    jumpFaceYawOffset: 0
+    allowDuringPull: 1
+    bounceWindow: 1
+    bounceCarry: 0.4
+    fatigueTime: 1
+    fatigueMultiplier: 0.025
+  runDust:
+    dustPrefab: {fileID: 3197053695042670447, guid: 8152c7cb47d15a949b1f4e935023f24b, type: 3}
+    moveThreshold: 4
+    interval: 0.15
+  speedTrails:
+    activateSpeed: 20
+    deactivateSpeed: 18
+    fullStrengthSpeed: 35
+    smoothing: 15
+    maxEmissionRate: 40
+    minWidthFraction: 0.25
+  wallSlideEffect:
+    minSlideSpeed: 0.5
+    alignAxis: 0
+    surfaceOffset: 0.05
+    heightOffset: 0

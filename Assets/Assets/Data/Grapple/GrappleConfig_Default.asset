@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea84408a887f4442b2ecdecec274763, type: 3}
+  m_Name: GrappleConfig_Default
+  m_EditorClassIdentifier: Assembly-CSharp::GrappleConfig
+  hookableTag: Hookable
+  range: 40
+  hookMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  aimRadius: 0.5
+  airUses: 1
+  castTime: 0.5
+  castMoveMultiplier: 0.3
+  castTurnSpeed: 2160
+  pullSpeed: 45
+  pullDuration: 0.4
+  endSpeedFraction: 0.4
+  stopDistance: 1.5
+  cooldown: 0.3
+  refreshesAirDash: 1
+  turnSpeed: 360
+  facingYawOffset: 0
+  keepMomentum: 1
+  momentumScale: 0.6
+  maxMomentum: 30
+  airDrag: 4
+  groundFriction: 40
+  steerSpeed: 360
+  brake: 20
+  turnLoss: 0.3
+  jumpBufferTime: 0.1
+  wavejumpWindow: 0.1
+  minWavejumpSpeed: 2
+  wavejumpSpeedMultiplier: 1.2
+  wavejumpHeightMultiplier: 0.7
+  waveJumpStates:
+  - WaveJumpA
+  - WaveJumpB
+  - WaveJumpC
+  waveJumpAnimMinSpeed: 5
+  waveJumpCrossfade: 0.05
+  camera:
+    castDistanceMultiplier: 0.8
+    castFovChange: -4
+    castSmoothing: 14
+    boostFovChange: 22
+    boostDistanceMultiplier: 1.058
+    boostSmoothing: 9
+    swingCameraSide: 0.6
+    swingDistanceMultiplier: 1.4
+    swingSmoothing: 6
+    centerNearWalls: 1
+    wallClearance: 0.2
+    wallCenterSmoothing: 10
+    wallReleaseDelay: 0.35
+    returnSmoothing: 4
+    wavejumpFovKick: 0
+    kickHoldTime: 0
+    kickRiseSmoothing: 0
+    kickFallSmoothing: 0
+  rope:
+    handOffset: {x: 0, y: 0, z: 0}
+    points: 24
+    width: 0.06
+    waveAmplitude: 0.4
+    waveCount: 3
+    waveSpeed: 14
+    waveBias: 0.4
+    impactWiggle: 0.5
+    impactFrequency: 16
+    impactDecay: 10
+    ropeSpeed: 120
+    retractSpeed: 120
+    straightenTime: 0.05
+    hitLingerTime: 0.1
+    hitFadeTime: 0.2
+    missHoldTime: 0.12
+  boostTrail:
+    duration: 0.4
+  boostMeter:
+    onColor: {r: 1, g: 1, b: 1, a: 1}
+    offColor: {r: 1, g: 1, b: 1, a: 0}
+    fadeSpeed: 14
